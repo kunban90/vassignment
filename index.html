@@ -6,10 +6,11 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
+        <title>Facebook Page Search Tool</title>
+        <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yl/r/H3nktOa7ZMg.ico">
+	<meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="static/css/core.css" />
+        <link rel="stylesheet" href="static/css/app.css" />
         <script type="text/javascript" src="static/js/lib.js"></script>
         <script type="text/javascript" src="static/js/app.js"></script>
     </head>
@@ -22,7 +23,7 @@ and open the template in the editor.
         </div>-->
         <div class="container">
             <div class="popup" id="searchPopup">
-                <input id="searchTerm" placeholder="Find People/Pages"/>
+                <input id="searchTerm" placeholder="Find Pages"/>
                 <button id="submitSearch">Search</button>
             </div>
             <table id="pagesTable" class="table">
@@ -34,8 +35,9 @@ and open the template in the editor.
                     </tr>
                 </tbody>
             </table>
-            <div id="loadMore">
-                <button>Load More</button>
+            <div id="bottomPanel">
+                <button id="home">Home</button>
+                <button id="loadMore">Load More</button>
             </div>
         </div>
     </body>
